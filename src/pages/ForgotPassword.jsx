@@ -45,9 +45,6 @@ function ForgotPassword() {
               <ArrowRightIcon fill='#fff' width='34px' height='34px' />
             </button>
           </div>
-          {/* <Link className='forgotPasswordLink' to='/signUp'>
-            Sign Up
-          </Link> */}
         </form>
       </main>
     </div>

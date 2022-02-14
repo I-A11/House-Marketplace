@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import OAuth from "../components/OAuth";
 import { Link, link, useNavigate } from "react-router-dom";
 import { ReactComponent as ArrowRightIcon } from "../assets/svg/keyboardArrowRightIcon.svg";
 import visibilityIcon from "../assets/svg/visibilityIcon.svg";
@@ -81,7 +81,7 @@ function SignIn() {
               </button>
             </div>
           </form>
-          {/* Google auth */}
+          <OAuth />
           <Link to='/signUp' className='registerLink'>
             Sign Up Instead
           </Link>
